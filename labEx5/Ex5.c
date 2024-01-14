@@ -101,13 +101,13 @@ void insertion_sort(struct Movie arr[], int n, int *element_comparisons, int *da
 int main() {
     const int n = 5; // Number of movies
 
-    struct Movie movies[n] = {
-        {101, "Inception", 100},
-        {103, "The Dark Knight", 50},
-        {102, "Interstellar", 75},
-        {105, "Incredibles 2", 120},
-        {104, "The Matrix", 90}
-    };
+struct Movie movies[n] = {
+    {101, "Inception", 100},
+    {103, "The Dark Knight", 50},
+    {102, "Interstellar", 75},
+    {105, "Incredibles 2", 120},
+    {104, "The Matrix", 90}
+};
 
     int target_id = 103;
 
